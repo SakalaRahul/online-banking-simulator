@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      "fullName": "Sakala Rahul",
+      "accountNumber": "1002003001",
+      "password": "password123",
+      "accountType": "Savings Account",
+      "branch": "MG Road, Vijayawada",
+      "ifsc": "SBIN0001234",
+      "balance": 184320.75
+    },
+    {
+      "fullName": "Sriram",
+      "accountNumber": "1002003002",
+      "password": "password234",
+      "accountType": "Current Account",
+      "branch": "Benz Circle, Vijayawada",
+      "ifsc": "SBIN0005678",
+      "balance": 542100.00
+    }
+  ],
+  "transactions": [
+    {
+      "id": "TXN482913",
+      "accountNumber": "1002003001",
+      "date": "2026-08-10",
+      "description": "Salary Credit - August",
+      "type": "Credit",
+      "amount": 65000,
+      "balanceAfter": 184320.75
+    },
+    {
+      "id": "TXN482844",
+      "accountNumber": "1002003001",
+      "date": "2026-08-07",
+      "description": "Transfer to Landlord (NEFT) - Rent",
+      "type": "Debit",
+      "amount": 18000,
+      "balanceAfter": 119320.75
+    },
+    {
+      "id": "TXN482790",
+      "accountNumber": "1002003001",
+      "date": "2026-08-03",
+      "description": "Electricity Bill Payment",
+      "type": "Debit",
+      "amount": 2140.5,
+      "balanceAfter": 137320.75
+    },
+    {
+      "id": "TXN482711",
+      "accountNumber": "1002003001",
+      "date": "2026-07-29",
+      "description": "Interest Credited",
+      "type": "Credit",
+      "amount": 421.25,
+      "balanceAfter": 139461.25
+    }
+  ]
+}
